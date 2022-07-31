@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Console;
 
 namespace Base64_PDF
 {
@@ -10,9 +12,14 @@ namespace Base64_PDF
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
-            Console.ReadLine();
+            ConvertT cnv = new ConvertT();
+            cnv.start();
+
+            //cnv.Base64toPDF();
+            //cnv.PDFtoBase64();
+            WriteLine("Press any key to exit ...");
+            ReadKey(true);
+
         }
     }
 }
