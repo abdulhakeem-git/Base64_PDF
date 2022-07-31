@@ -11,6 +11,7 @@ namespace Base64_PDF
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!");
             Console.ReadLine();
         }
     }
